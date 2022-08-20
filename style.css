@@ -1,0 +1,137 @@
+*{
+   margin: 0;
+   padding: 0;
+   color: whitesmoke;
+   box-sizing: border-box;
+   font-family: 'Roboto', sans-serif;
+}
+
+.main{
+    height: 109vh;
+    width: 100%;
+    background: linear-gradient(120deg, rgb(54, 15, 15), rgb(134, 116, 116));
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+
+.navbar .title{
+    font-size: 67px;
+}
+
+span{
+    cursor: pointer;
+    color: coral;
+    transition: 1s;
+}
+
+span:hover{
+    color: whitesmoke;
+}
+
+.navbar p{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 1px 1px;
+    transition: 1s ;
+    transition-property: color;
+}
+
+.navbar p i{
+    color: coral;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navbar p :hover{
+    color: whitesmoke;
+}
+
+.menubar li{
+    list-style: none;
+    display: inline-block;
+}
+
+.menubar li a{
+    text-decoration: none;
+    font-size: 27px;
+    margin-left: 25px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    padding: 5px 5px;
+    transition: 1s ease;
+    transition-property: border color ease;
+}
+
+.menubar li a:hover{
+    border: 1px solid coral;
+    color: coral;
+    padding: 10px 30px;
+}
+
+.title i{
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.title i:hover{
+    color: coral;
+}
+
+.home{
+    height: 400px;
+    padding: 70px;
+    padding-top: 130px;
+}
+
+.title1{
+    font-size: 56px;
+}
+
+.home p{
+    font-size: 33px;
+    color: whitesmoke;
+}
+
+.home p i{
+    font-size: 33px;
+    cursor: pointer;
+    color: coral;
+    transition: 1s;
+}
+
+.home p i:hover{
+    color: whitesmoke;
+}
+
+.home h6{
+    color:  coral;
+    padding-bottom: -30px;
+}
+
+.home button{
+    font-size: 36px;
+    color:  whitesmoke;
+    padding: 10px 30px;
+    background: rgb(226, 101, 55);
+    border: 1px solid transparent;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 1s ;
+}
+
+.home button:hover{
+    border: 1px solid transparent;
+    background-color: transparent;
+    color: coral;
+}
